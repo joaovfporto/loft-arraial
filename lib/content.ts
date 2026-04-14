@@ -1,11 +1,11 @@
 import type { Locale } from "@/lib/i18n";
 
 export const reservationLink =
-  "https://wa.me/5527988510310?text=Ol%C3%A1!%20Vim%20pelo%20site%20e%20gostaria%20de%20saber%20mais%20sobre%20o%20Loft%20na%20Prainha.";
+  "https://wa.me/5527988510310?text=Ol%C3%A1!%20Vim%20pelo%20site%20e%20gostaria%20de%20saber%20mais%20sobre%20o%20Loft%20Prainha%20Arraial%2C%20de%20frente%20para%20o%20mar%20na%20Prainha.";
 
 export const contact = {
   whatsapp:
-    "https://wa.me/5527988510310?text=Ol%C3%A1!%20Vim%20pelo%20site%20e%20gostaria%20de%20saber%20mais%20sobre%20o%20Loft%20na%20Prainha.",
+    "https://wa.me/5527988510310?text=Ol%C3%A1!%20Vim%20pelo%20site%20e%20gostaria%20de%20saber%20mais%20sobre%20o%20Loft%20Prainha%20Arraial%2C%20de%20frente%20para%20o%20mar%20na%20Prainha.",
   instagram: "https://instagram.com/loftprainhaar",
   address: "Av. Alfredo Dante Fassini, Prainha, Arraial do Cabo - RJ",
   mapEmbed:
@@ -186,9 +186,9 @@ export type LocalizedContent = {
 export const siteContent: Record<Locale, LocalizedContent> = {
   pt: {
     meta: {
-      title: "Loft Prainha Arraial | Loft pé na areia em Arraial do Cabo",
+      title: "Loft Prainha Arraial | Loft de frente para o mar em Arraial do Cabo",
       description:
-        "Loft na Prainha, a poucos passos da praia, com conforto, praticidade e tudo por perto para você aproveitar Arraial com facilidade.",
+        "Loft completo de frente para o mar na Prainha, em Arraial do Cabo. Vista incrível, conforto, praticidade e reserva rápida pelo WhatsApp.",
     },
     nav: {
       brandTagline: "Conforto, praia e praticidade",
@@ -210,10 +210,10 @@ export const siteContent: Record<Locale, LocalizedContent> = {
     },
     home: {
       heroEyebrow: "Prainha • Arraial do Cabo",
-      heroTitle: "Fique na Prainha com conforto, praticidade e tudo por perto",
+      heroTitle: "Loft de frente para o mar na Prainha com conforto, praticidade e tudo por perto.",
       heroText:
-        "Loft completo, a poucos passos da praia, ideal para descansar e aproveitar Arraial sem complicação.",
-      heroBadge: "A poucos passos da praia e com tudo o que você precisa para uma estadia tranquila.",
+        "Loft completo, literalmente de frente para o mar. Acorde com a vista da Prainha e viva Arraial com exclusividade.",
+      heroBadge: "De frente para o mar, com conforto, vista e praticidade na melhor localização da Prainha.",
       heroImageAlt: "Vista aérea da Prainha com mar turquesa em Arraial do Cabo",
       heroPrimaryCta: "Ver disponibilidade no WhatsApp",
       heroSecondaryCta: "Falar com a hospedagem",

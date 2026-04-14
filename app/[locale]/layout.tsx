@@ -22,10 +22,30 @@ export async function generateMetadata({
   }
 
   const content = getContent(locale);
+  const title = content.meta.title;
+  const description = content.meta.description;
+  const path = locale === "pt" ? "/pt" : `/${locale}`;
 
   return {
-    title: content.meta.title,
-    description: content.meta.description,
+    title,
+    description,
+    openGraph: {
+      title,
+      description:
+        locale === "pt"
+          ? "Loft completo de frente para o mar na Prainha, com vista incrível, conforto e reserva rápida pelo WhatsApp."
+          : description,
+      url: path,
+      type: "website",
+    },
+    twitter: {
+      card: "summary_large_image",
+      title,
+      description:
+        locale === "pt"
+          ? "Loft completo de frente para o mar na Prainha, em Arraial do Cabo. Vista incrível, conforto e reserva rápida pelo WhatsApp."
+          : description,
+    },
   };
 }
 
